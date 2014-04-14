@@ -28,6 +28,7 @@ GEM
     mysql2 (0.3.15)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
+    pg (0.17.1)
     pry (0.9.12.6)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -44,6 +45,9 @@ GEM
       rubyzip (~> 1.0)
       websocket (~> 1.0.4)
     sequel (4.9.0)
+    sequel_pg (1.6.9)
+      pg (>= 0.8.0)
+      sequel (>= 3.39.0)
     slop (3.5.0)
     test-unit (2.5.5)
     test-unit-capybara (1.0.2)
@@ -77,6 +81,7 @@ DEPENDENCIES
   rack
   rake
   sequel
+  sequel_pg
   test-unit
   test-unit-capybara
   test-unit-notify

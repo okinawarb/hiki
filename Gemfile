@@ -9,6 +9,7 @@ gem 'hikidoc'
 
 gem 'sequel'
 gem 'mysql2'
+gem 'sequel_pg'
 
 group :development do
   gem 'pry'
