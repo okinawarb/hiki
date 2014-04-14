@@ -15,6 +15,7 @@
 
 # データを保存する方法
 @database_type   = 'rdb'
+@repos_type      = 'rdb'
 
 # メールサーバ名【オプション】
 #   メールサーバ名を指定します。@mail_on_updateがtrueの場合に有効です。
